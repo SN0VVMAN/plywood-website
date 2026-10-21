@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plywood Export Partner</title>
+    <!-- 引入Tailwind样式，不用本地安装 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 平滑滚动效果 -->
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+<main class="min-h-screen bg-[#f8f7f2] text-[#203b2c]">
+  <!-- 顶部导航栏 -->
+  <header class="sticky top-0 z-20 border-b border-black/10 bg-[#f8f7f2]/95 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
+      <a href="#top" class="shrink-0 text-xl font-bold tracking-tight">
+        PLYWOOD<span class="text-[#71856b]">.</span>
+        <span class="ml-2 hidden text-xs font-normal tracking-[0.18em] text-stone-500 sm:inline">
+          EXPORT PARTNER
+        </span>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="#products" class="hover:text-[#71856b]">Products</a>
+        <a href="#capabilities" class="hover:text-[#71856b]">Capabilities</a>
+        <a href="#about" class="hover:text-[#71856b]">About Us</a>
+        <a href="#contact" class="hover:text-[#71856b]">Contact</a>
+      </nav>
+      <div class="flex shrink-0 items-center gap-3">
+        <div class="flex items-center gap-1 rounded-full border border-stone-300 p-1 text-xs font-semibold">
+          <span class="rounded-full bg-[#203b2c] px-3 py-2 text-white">EN</span>
+          <a href="#zh" class="rounded-full px-3 py-2 text-stone-600 transition hover:bg-stone-100">中文</a>
+        </div>
+        <a href="#contact" class="hidden rounded-full bg-[#203b2c] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#365640] sm:inline-block">
+          Request a Quote ↗
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 首屏Hero区域 -->
+  <section class="relative overflow-hidden">
+    <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-28">
+      <div class="relative z-10">
+        <p class="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-[#71856b]">
+          Plywood · Panels · Export Solutions
+        </p>
+        <h1 class="max-w-2xl text-5xl leading-[1.08] font-semibold tracking-tight sm:text-6xl lg:text-7xl">
+          The right panels.<br>
+          <span class="font-normal text-[#71856b] italic">The right partner.</span>
+        </h1>
+        <p class="mt-7 max-w-xl text-base leading-8 text-stone-600 sm:text-lg">
+          Plywood supply tailored to your specifications, market
+          requirements and project needs. Let's build a dependable
+          supply relationship.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-4">
+          <a href="#contact" class="rounded-full bg-[#203b2c] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#365640]">
+            Discuss Your Requirements ↗
+          </a>
+          <a href="#products" class="rounded-full border border-stone-300 px-7 py-4 text-sm font-medium transition hover:border-[#203b2c]">
+            Explore Products
+          </a>
+        </div>
+        <div class="mt-12 grid max-w-lg grid-cols-3 border-t border-stone-300 pt-6">
+          <div class="pr-3">
+            <p class="text-sm font-semibold">Specifications</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">Matched to your needs</p>
+          </div>
+          <div class="border-l border-stone-300 px-4">
+            <p class="text-sm font-semibold">Quality</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">Defined inspection</p>
+          </div>
+          <div class="border-l border-stone-300 pl-4">
+            <p class="text-sm font-semibold">Logistics</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">Export coordination</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute -top-5 -right-3 h-28 w-28 rounded-full bg-[#dfe5d7]"></div>
+        <div class="relative overflow-hidden rounded-t-[48%] rounded-b-2xl bg-[#e5e0d4]">
+          <img
+            src="https://images.unsplash.com/photo-1513467655676-561b7d489a88?auto=format&fit=crop&w=1400&q=90"
+            alt="Wood materials and timber textures"
+            class="h-[390px] w-full object-cover sm:h-[500px] lg:h-[580px]"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#14251b]/55 via-transparent to-transparent"></div>
+          <div class="absolute right-5 bottom-6 left-5 text-white sm:right-8 sm:bottom-8 sm:left-8">
+            <p class="text-xs tracking-[0.2em] uppercase text-white/80">
+              Built around your requirements
+            </p>
+            <p class="mt-2 text-2xl font-medium sm:text-3xl">
+              Materials that move projects forward.
+            </p>
+          </div>
+        </div>
+        <div class="absolute -bottom-5 -left-3 hidden rounded-xl border border-stone-200 bg-white p-5 shadow-lg sm:block">
+          <p class="text-xs uppercase tracking-widest text-stone-500">Your next shipment</p>
+          <p class="mt-2 text-lg font-semibold">Starts with a conversation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 产品展示区 -->
+  <section id="products" class="scroll-mt-24 bg-white py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+        <div>
+          <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
+            Product Range
+          </p>
+          <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
+            Panels for different needs.
+          </h2>
+        </div>
+        <p class="max-w-md text-sm leading-7 text-stone-500">
+          Explore product categories and discuss the specifications
+          suitable for your application and target market.
+        </p>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-3">
+        <!-- 产品1 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1513467655676-561b7d489a88?auto=format&fit=crop&w=1000&q=85"
+              alt="Commercial Plywood"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Commercial</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">Commercial Plywood</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            Versatile panels for interior and general construction
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            Ask about this product
+          </a>
+        </article>
+
+        <!-- 产品2 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=85"
+              alt="Film Faced Plywood"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Formwork</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">Film Faced Plywood</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            Designed for concrete formwork applications
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            Ask about this product
+          </a>
+        </article>
+
+        <!-- 产品3 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1000&q=85"
+              alt="Laminated Panels"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Specialty</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">Laminated Panels</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            Panel solutions for furniture and fit-out projects
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            Ask about this product
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务能力区 -->
+  <section id="capabilities" class="scroll-mt-24 bg-[#203b2c] py-20 text-white sm:py-24">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <p class="text-xs font-semibold tracking-[0.22em] text-[#c4d2b9] uppercase">
+        How We Work
+      </p>
+      <div class="mt-4 grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+        <h2 class="text-3xl leading-tight font-semibold tracking-tight sm:text-5xl">
+          Clear specifications.<br>
+          Consistent communication.
+        </h2>
+        <p class="max-w-xl text-sm leading-7 text-white/70 sm:text-base">
+          A successful export order starts with clear expectations. From
+          product selection to inspection and shipment coordination, align
+          each step before moving forward.
+        </p>
+      </div>
+      <div class="mt-14 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3">
+        <!-- 能力1 -->
+        <article>
+          <p class="text-sm text-[#c4d2b9]">01</p>
+          <h3 class="mt-5 text-xl font-medium">Product Selection</h3>
+          <p class="mt-3 text-sm leading-7 text-white/65">
+            Discuss panel types, thicknesses, dimensions and face requirements for your market.
+          </p>
+        </article>
+        <!-- 能力2 -->
+        <article>
+          <p class="text-sm text-[#c4d2b9]">02</p>
+          <h3 class="mt-5 text-xl font-medium">Quality Checks</h3>
+          <p class="mt-3 text-sm leading-7 text-white/65">
+            Define inspection points and product specifications before production and shipment.
+          </p>
+        </article>
+        <!-- 能力3 -->
+        <article>
+          <p class="text-sm text-[#c4d2b9]">03</p>
+          <h3 class="mt-5 text-xl font-medium">Export Coordination</h3>
+          <p class="mt-3 text-sm leading-7 text-white/65">
+            Align packaging, documentation and shipping arrangements with your order requirements.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我们 -->
+  <section id="about" class="scroll-mt-24 py-20 sm:py-24">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-2 lg:items-center lg:px-8">
+      <div>
+        <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
+          About Our Business
+        </p>
+        <h2 class="mt-4 text-3xl leading-tight font-semibold tracking-tight sm:text-5xl">
+          A supply partner focused on your market.
+        </h2>
+      </div>
+      <div>
+        <p class="text-base leading-8 text-stone-600">
+          Every market has different expectations for panel dimensions,
+          bonding performance, appearance, packaging and documentation.
+          Tell us what your customers need, and we can discuss a suitable
+          product specification and supply plan.
+        </p>
+        <a href="#contact" class="mt-7 inline-block rounded-full border border-stone-300 px-6 py-3 text-sm font-medium hover:border-[#203b2c]">
+          Tell Us About Your Market ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系表单 -->
+  <section id="contact" class="scroll-mt-24 bg-[#e9e8df] py-20 sm:py-24">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+      <div>
+        <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
+          Start an Inquiry
+        </p>
+        <h2 class="mt-4 text-4xl leading-tight font-semibold tracking-tight sm:text-5xl">
+          Let's discuss your next order.
+        </h2>
+        <p class="mt-5 max-w-md text-sm leading-7 text-stone-600">
+          Share your target product, specifications, estimated quantity and
+          destination market. We can then discuss the next steps.
+        </p>
+        <p class="mt-8 text-sm text-stone-500">
+          Email: Add your business email here
+        </p>
+        <p class="mt-2 text-sm text-stone-500">
+          Location: Add your factory location here
+        </p>
+      </div>
+      <form
+        action="mailto:your-business-email@example.com"
+        method="post"
+        enctype="text/plain"
+        class="rounded-2xl bg-white p-6 sm:p-9"
+      >
+        <div class="grid gap-5 sm:grid-cols-2">
+          <label class="text-sm font-medium">
+            Your Name
+            <input
+              name="name"
+              required
+              placeholder="Full name"
+              class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
+            />
+          </label>
+          <label class="text-sm font-medium">
+            Company
+            <input
+              name="company"
+              placeholder="Company name"
+              class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
+            />
+          </label>
+          <label class="text-sm font-medium sm:col-span-2">
+            Business Email
+            <input
+              name="email"
+              type="email"
+              required
+              placeholder="you@company.com"
+              class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
+            />
+          </label>
+          <label class="text-sm font-medium sm:col-span-2">
+            Product Requirements
+            <textarea
+              name="requirements"
+              required
+              rows="4"
+              placeholder="Product type, thickness, dimensions, quantity and destination country..."
+              class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
+            ></textarea>
+          </label>
+        </div>
+        <button
+          type="submit"
+          class="mt-6 w-full rounded-full bg-[#203b2c] px-6 py-4 text-sm font-medium text-white transition hover:bg-[#365640]"
+        >
+          Submit Inquiry ↗
+        </button>
+        <p class="mt-3 text-xs leading-5 text-stone-400">
+          Demo form only. Connect a real inquiry service before publishing
+          this website.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="bg-[#18271e] px-5 py-8 text-white/70">
+    <div class="mx-auto flex max-w-7xl flex-col gap-3 text-xs sm:flex-row sm:items-center sm:justify-between">
+      <p class="font-semibold tracking-widest text-white">
+        PLYWOOD EXPORT
+      </p>
+      <p>
+        Product details and business information will be confirmed before publication.
+      </p>
+      <p>© 2026 All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+</body>
+</html>
