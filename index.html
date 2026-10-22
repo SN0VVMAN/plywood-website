@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plywood Export Partner</title>
-    <!-- 引入Tailwind样式，不用本地安装 -->
+    <title>林海木业 - 可持续板材制造专家 | 始于1998</title>
+    <!-- 引入Tailwind样式 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 平滑滚动效果 -->
     <style>
@@ -17,24 +17,25 @@
   <header class="sticky top-0 z-20 border-b border-black/10 bg-[#f8f7f2]/95 backdrop-blur">
     <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
       <a href="#top" class="shrink-0 text-xl font-bold tracking-tight">
-        PLYWOOD<span class="text-[#71856b]">.</span>
+        林海木业<span class="text-[#71856b]">.</span>
         <span class="ml-2 hidden text-xs font-normal tracking-[0.18em] text-stone-500 sm:inline">
-          EXPORT PARTNER
+          LINHAI WOOD
         </span>
       </a>
       <nav class="hidden items-center gap-6 text-sm lg:flex">
-        <a href="#products" class="hover:text-[#71856b]">Products</a>
-        <a href="#capabilities" class="hover:text-[#71856b]">Capabilities</a>
-        <a href="#about" class="hover:text-[#71856b]">About Us</a>
-        <a href="#contact" class="hover:text-[#71856b]">Contact</a>
+        <a href="#products" class="hover:text-[#71856b]">产品系列</a>
+        <a href="#solutions" class="hover:text-[#71856b]">应用方案</a>
+        <a href="#process" class="hover:text-[#71856b]">服务流程</a>
+        <a href="#about" class="hover:text-[#71856b]">关于我们</a>
+        <a href="#faq" class="hover:text-[#71856b]">常见问题</a>
+        <a href="#contact" class="hover:text-[#71856b]">联系我们</a>
       </nav>
       <div class="flex shrink-0 items-center gap-3">
-        <div class="flex items-center gap-1 rounded-full border border-stone-300 p-1 text-xs font-semibold">
-          <span class="rounded-full bg-[#203b2c] px-3 py-2 text-white">EN</span>
-          <a href="#zh" class="rounded-full px-3 py-2 text-stone-600 transition hover:bg-stone-100">中文</a>
-        </div>
-        <a href="#contact" class="hidden rounded-full bg-[#203b2c] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#365640] sm:inline-block">
-          Request a Quote ↗
+        <a
+          href="#contact"
+          class="hidden rounded-full bg-[#203b2c] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#365640] sm:inline-block"
+        >
+          获取报价 ↗
         </a>
       </div>
     </div>
@@ -42,40 +43,50 @@
 
   <!-- 首屏Hero区域 -->
   <section class="relative overflow-hidden">
-    <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-28">
+    <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-28">
       <div class="relative z-10">
         <p class="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-[#71856b]">
-          Plywood · Panels · Export Solutions
+          SUSTAINABLE CRAFTSMANSHIP • 始于1998
         </p>
         <h1 class="max-w-2xl text-5xl leading-[1.08] font-semibold tracking-tight sm:text-6xl lg:text-7xl">
-          The right panels.<br>
-          <span class="font-normal text-[#71856b] italic">The right partner.</span>
+          让自然与精密<br>
+          <span class="font-normal text-[#71856b] italic">在木质工程中相遇</span>
         </h1>
         <p class="mt-7 max-w-xl text-base leading-8 text-stone-600 sm:text-lg">
-          Plywood supply tailored to your specifications, market
-          requirements and project needs. Let's build a dependable
-          supply relationship.
+          我们致力于将可持续的森林资源转化为高品质的建筑与家居基材，为每一寸空间注入自然的呼吸。
         </p>
         <div class="mt-9 flex flex-wrap gap-4">
-          <a href="#contact" class="rounded-full bg-[#203b2c] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#365640]">
-            Discuss Your Requirements ↗
+          <a
+            href="#contact"
+            class="rounded-full bg-[#203b2c] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#365640]"
+          >
+            立即咨询 ↗
           </a>
-          <a href="#products" class="rounded-full border border-stone-300 px-7 py-4 text-sm font-medium transition hover:border-[#203b2c]">
-            Explore Products
+          <a
+            href="#products"
+            class="rounded-full border border-stone-300 px-7 py-4 text-sm font-medium transition hover:border-[#203b2c]"
+          >
+            查看产品
           </a>
         </div>
         <div class="mt-12 grid max-w-lg grid-cols-3 border-t border-stone-300 pt-6">
           <div class="pr-3">
-            <p class="text-sm font-semibold">Specifications</p>
-            <p class="mt-1 text-xs leading-5 text-stone-500">Matched to your needs</p>
+            <p class="text-sm font-semibold">ENF 级</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">
+              甲醛释放量标准
+            </p>
           </div>
           <div class="border-l border-stone-300 px-4">
-            <p class="text-sm font-semibold">Quality</p>
-            <p class="mt-1 text-xs leading-5 text-stone-500">Defined inspection</p>
+            <p class="text-sm font-semibold">100%</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">
+              全流程可追溯原木
+            </p>
           </div>
           <div class="border-l border-stone-300 pl-4">
-            <p class="text-sm font-semibold">Logistics</p>
-            <p class="mt-1 text-xs leading-5 text-stone-500">Export coordination</p>
+            <p class="text-sm font-semibold">0.01mm</p>
+            <p class="mt-1 text-xs leading-5 text-stone-500">
+              数字化加工精度
+            </p>
           </div>
         </div>
       </div>
@@ -83,43 +94,44 @@
         <div class="absolute -top-5 -right-3 h-28 w-28 rounded-full bg-[#dfe5d7]"></div>
         <div class="relative overflow-hidden rounded-t-[48%] rounded-b-2xl bg-[#e5e0d4]">
           <img
-            src="https://images.unsplash.com/photo-1513467655676-561b7d489a88?auto=format&fit=crop&w=1400&q=90"
-            alt="Wood materials and timber textures"
+            src="https://images.unsplash.com/photo-1513467653337-ba76df10a4d2?auto=format&fit=crop&w=1400&q=90"
+            alt="林海木业板材仓储车间"
             class="h-[390px] w-full object-cover sm:h-[500px] lg:h-[580px]"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-[#14251b]/55 via-transparent to-transparent"></div>
           <div class="absolute right-5 bottom-6 left-5 text-white sm:right-8 sm:bottom-8 sm:left-8">
             <p class="text-xs tracking-[0.2em] uppercase text-white/80">
-              Built around your requirements
+              26年专注板材制造
             </p>
             <p class="mt-2 text-2xl font-medium sm:text-3xl">
-              Materials that move projects forward.
+              用自然材质，筑品质空间
             </p>
           </div>
         </div>
         <div class="absolute -bottom-5 -left-3 hidden rounded-xl border border-stone-200 bg-white p-5 shadow-lg sm:block">
-          <p class="text-xs uppercase tracking-widest text-stone-500">Your next shipment</p>
-          <p class="mt-2 text-lg font-semibold">Starts with a conversation.</p>
+          <p class="text-xs uppercase tracking-widest text-stone-500">
+            您的项目
+          </p>
+          <p class="mt-2 text-lg font-semibold">从一次沟通开始</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 产品展示区 -->
+  <!-- 产品系列区 -->
   <section id="products" class="scroll-mt-24 bg-white py-20 sm:py-24">
     <div class="mx-auto max-w-7xl px-5 lg:px-8">
       <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
         <div>
           <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
-            Product Range
+            产品系列
           </p>
           <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
-            Panels for different needs.
+            全品类板材解决方案
           </h2>
         </div>
         <p class="max-w-md text-sm leading-7 text-stone-500">
-          Explore product categories and discuss the specifications
-          suitable for your application and target market.
+          覆盖建筑、家具、装饰等多场景应用，支持定制尺寸、厚度与饰面，满足不同项目需求。
         </p>
       </div>
       <div class="mt-12 grid gap-6 md:grid-cols-3">
@@ -128,20 +140,20 @@
           <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
             <img
               src="https://images.unsplash.com/photo-1513467655676-561b7d489a88?auto=format&fit=crop&w=1000&q=85"
-              alt="Commercial Plywood"
+              alt="胶合板系列"
               class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
             />
           </div>
           <div class="flex items-center justify-between pt-5">
-            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Commercial</p>
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">基础板材</p>
             <span class="text-xl">↗</span>
           </div>
-          <h3 class="mt-2 text-xl font-semibold">Commercial Plywood</h3>
+          <h3 class="mt-2 text-xl font-semibold">胶合板系列</h3>
           <p class="mt-2 text-sm leading-6 text-stone-500">
-            Versatile panels for interior and general construction
+            高强度结构板材，适用于建筑工程与家具制造，稳定耐用。
           </p>
           <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
-            Ask about this product
+            咨询该产品
           </a>
         </article>
 
@@ -150,20 +162,20 @@
           <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
             <img
               src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=85"
-              alt="Film Faced Plywood"
+              alt="密度板系列"
               class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
             />
           </div>
           <div class="flex items-center justify-between pt-5">
-            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Formwork</p>
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">基础板材</p>
             <span class="text-xl">↗</span>
           </div>
-          <h3 class="mt-2 text-xl font-semibold">Film Faced Plywood</h3>
+          <h3 class="mt-2 text-xl font-semibold">密度板系列</h3>
           <p class="mt-2 text-sm leading-6 text-stone-500">
-            Designed for concrete formwork applications
+            表面细腻平整，适合雕刻与饰面加工，家具定制首选基材。
           </p>
           <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
-            Ask about this product
+            咨询该产品
           </a>
         </article>
 
@@ -172,66 +184,200 @@
           <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
             <img
               src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1000&q=85"
-              alt="Laminated Panels"
+              alt="覆膜板系列"
               class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
             />
           </div>
           <div class="flex items-center justify-between pt-5">
-            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">Specialty</p>
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">功能板材</p>
             <span class="text-xl">↗</span>
           </div>
-          <h3 class="mt-2 text-xl font-semibold">Laminated Panels</h3>
+          <h3 class="mt-2 text-xl font-semibold">覆膜板系列</h3>
           <p class="mt-2 text-sm leading-6 text-stone-500">
-            Panel solutions for furniture and fit-out projects
+            防水耐磨，混凝土浇筑专用模板，可重复使用，性价比高。
           </p>
           <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
-            Ask about this product
+            咨询该产品
+          </a>
+        </article>
+
+        <!-- 产品4 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85"
+              alt="饰面板系列"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">装饰板材</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">饰面板系列</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            天然木皮贴面，还原实木质感，高端室内装饰理想材料。
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            咨询该产品
+          </a>
+        </article>
+
+        <!-- 产品5 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?auto=format&fit=crop&w=1000&q=85"
+              alt="细工木板系列"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">实木板材</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">细工木板系列</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            实木拼接结构，兼顾环保与强度，适合柜体与家具制作。
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            咨询该产品
+          </a>
+        </article>
+
+        <!-- 产品6 -->
+        <article class="group">
+          <div class="overflow-hidden rounded-xl bg-[#eeeae1]">
+            <img
+              src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1000&q=85"
+              alt="刨花板系列"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div class="flex items-center justify-between pt-5">
+            <p class="text-xs tracking-[0.16em] text-[#71856b] uppercase">经济型板材</p>
+            <span class="text-xl">↗</span>
+          </div>
+          <h3 class="mt-2 text-xl font-semibold">刨花板系列</h3>
+          <p class="mt-2 text-sm leading-6 text-stone-500">
+            性价比高，握钉力强，适合批量家具生产与包装用途。
+          </p>
+          <a href="#contact" class="mt-5 inline-block border-b border-stone-300 pb-1 text-sm font-medium hover:border-[#203b2c]">
+            咨询该产品
           </a>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- 服务能力区 -->
-  <section id="capabilities" class="scroll-mt-24 bg-[#203b2c] py-20 text-white sm:py-24">
+  <!-- 应用解决方案 -->
+  <section id="solutions" class="scroll-mt-24 bg-[#203b2c] py-20 text-white sm:py-24">
     <div class="mx-auto max-w-7xl px-5 lg:px-8">
       <p class="text-xs font-semibold tracking-[0.22em] text-[#c4d2b9] uppercase">
-        How We Work
+        应用解决方案
       </p>
       <div class="mt-4 grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
         <h2 class="text-3xl leading-tight font-semibold tracking-tight sm:text-5xl">
-          Clear specifications.<br>
-          Consistent communication.
+          为专业场景<br>
+          提供专业板材支持
         </h2>
         <p class="max-w-xl text-sm leading-7 text-white/70 sm:text-base">
-          A successful export order starts with clear expectations. From
-          product selection to inspection and shipment coordination, align
-          each step before moving forward.
+          我们为追求美学与环保责任的建筑师与设计师提供专业的板材支持，
+          从室内设计到家具制造，再到绿色建筑工程，全方位匹配项目标准。
         </p>
       </div>
       <div class="mt-14 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3">
-        <!-- 能力1 -->
+        <!-- 方案1 -->
         <article>
-          <p class="text-sm text-[#c4d2b9]">01</p>
-          <h3 class="mt-5 text-xl font-medium">Product Selection</h3>
+          <div class="h-40 overflow-hidden rounded-lg mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" 
+              alt="高端室内设计"
+              class="w-full h-full object-cover"
+            >
+          </div>
+          <h3 class="text-xl font-medium">高端室内设计</h3>
           <p class="mt-3 text-sm leading-7 text-white/65">
-            Discuss panel types, thicknesses, dimensions and face requirements for your market.
+            木质饰面打造的高端室内空间，为空间带来自然的温暖与质感，饰面效果完美模拟实木美感，同时具备更强的稳定性与可持续性，是高端全屋定制的理想选择。
           </p>
         </article>
-        <!-- 能力2 -->
+        <!-- 方案2 -->
         <article>
-          <p class="text-sm text-[#c4d2b9]">02</p>
-          <h3 class="mt-5 text-xl font-medium">Quality Checks</h3>
+          <div class="h-40 overflow-hidden rounded-lg mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" 
+              alt="专业家具制造"
+              class="w-full h-full object-cover"
+            >
+          </div>
+          <h3 class="text-xl font-medium">专业家具制造</h3>
           <p class="mt-3 text-sm leading-7 text-white/65">
-            Define inspection points and product specifications before production and shipment.
+            专为高品质家具打造的物理性能，确保在大规模柔性生产中保持极高的平整度与握钉力。我们的基材是众多一线家具品牌的信赖之选。
           </p>
         </article>
-        <!-- 能力3 -->
+        <!-- 方案3 -->
         <article>
-          <p class="text-sm text-[#c4d2b9]">03</p>
-          <h3 class="mt-5 text-xl font-medium">Export Coordination</h3>
+          <div class="h-40 overflow-hidden rounded-lg mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" 
+              alt="绿色建筑工程"
+              class="w-full h-full object-cover"
+            >
+          </div>
+          <h3 class="text-xl font-medium">绿色建筑工程</h3>
           <p class="mt-3 text-sm leading-7 text-white/65">
-            Align packaging, documentation and shipping arrangements with your order requirements.
+            支持 LEED 和 BREEAM 等国际绿色建筑认证。低甲醛释放、可追溯的森林资源，助力您的工程项目达到全球公认的环保高度。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 定制服务流程 -->
+  <section id="process" class="scroll-mt-24 py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
+          定制服务流程
+        </p>
+        <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
+          从原木甄选到成品交付
+        </h2>
+        <p class="mt-5 text-sm leading-7 text-stone-500">
+          每一步都由精密的数字化流程保驾护航，确保交付品质稳定可靠。
+        </p>
+      </div>
+      <div class="mt-14 grid gap-8 md:grid-cols-4">
+        <!-- 步骤1 -->
+        <article class="relative">
+          <p class="text-4xl font-bold text-[#71856b]/20">01</p>
+          <h3 class="mt-2 text-lg font-semibold">木材甄选</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-500">
+            严格筛选经可持续认证的优质林木资源，确保原材料的物理性能与环保底蕴。
+          </p>
+        </article>
+        <!-- 步骤2 -->
+        <article class="relative">
+          <p class="text-4xl font-bold text-[#71856b]/20">02</p>
+          <h3 class="mt-2 text-lg font-semibold">数字化生产</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-500">
+            引进全自动化生产线，实时监控压力、温度与厚度，实现极高的一致性。
+          </p>
+        </article>
+        <!-- 步骤3 -->
+        <article class="relative">
+          <p class="text-4xl font-bold text-[#71856b]/20">03</p>
+          <h3 class="mt-2 text-lg font-semibold">严苛质检</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-500">
+            每批次板材均经过实验室强度、含水率及环保测试，确保交付品质。
+          </p>
+        </article>
+        <!-- 步骤4 -->
+        <article class="relative">
+          <p class="text-4xl font-bold text-[#71856b]/20">04</p>
+          <h3 class="mt-2 text-lg font-semibold">全球交付</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-500">
+            依托成熟的供应链体系，为您的项目提供安全、及时的物流支持。
           </p>
         </article>
       </div>
@@ -239,92 +385,144 @@
   </section>
 
   <!-- 关于我们 -->
-  <section id="about" class="scroll-mt-24 py-20 sm:py-24">
+  <section id="about" class="scroll-mt-24 bg-white py-20 sm:py-24">
     <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-2 lg:items-center lg:px-8">
       <div>
         <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
-          About Our Business
+          关于林海木业
         </p>
         <h2 class="mt-4 text-3xl leading-tight font-semibold tracking-tight sm:text-5xl">
-          A supply partner focused on your market.
+          板材制造领域的先锋
         </h2>
       </div>
-      <div>
+      <div class="space-y-5">
         <p class="text-base leading-8 text-stone-600">
-          Every market has different expectations for panel dimensions,
-          bonding performance, appearance, packaging and documentation.
-          Tell us what your customers need, and we can discuss a suitable
-          product specification and supply plan.
+          林海木业是板材制造领域的先锋，致力于将先进工业技术与对自然的敬畏有机结合。
+          我们的使命是在提供高品质、环保的木质产品的同时，最大限度地减少碳足迹。
+          每一块板材都承载着我们对环境的承诺。
         </p>
-        <a href="#contact" class="mt-7 inline-block rounded-full border border-stone-300 px-6 py-3 text-sm font-medium hover:border-[#203b2c]">
-          Tell Us About Your Market ↗
+        <p class="text-base leading-8 text-stone-600">
+          我们采用经认证的可持续采伐木材，通过创新的加工方法减少浪费和能源消耗。
+          使用中国工业级生产线，确保每一块出厂的板材都符合严苛的国际环保与物理性能标准。
+        </p>
+        <a
+          href="#contact"
+          class="mt-2 inline-block rounded-full border border-stone-300 px-6 py-3 text-sm font-medium hover:border-[#203b2c]"
+        >
+          了解更多合作方式 ↗
         </a>
       </div>
     </div>
   </section>
 
-  <!-- 联系表单 -->
+  <!-- 常见问题 -->
+  <section id="faq" class="scroll-mt-24 bg-[#f8f7f2] py-20 sm:py-24">
+    <div class="mx-auto max-w-3xl px-5 lg:px-8">
+      <div class="text-center">
+        <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
+          常见问题
+        </p>
+        <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
+          您可能想了解的问题
+        </h2>
+      </div>
+      <div class="mt-12 space-y-6">
+        <!-- 问题1 -->
+        <div class="border-b border-stone-300 pb-6">
+          <h3 class="text-lg font-semibold">你们的板材符合哪些环保标准？</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-600">
+            我们的板材符合 ENF 级甲醛释放标准，并通过 ISO9001 质量管理体系与 ISO14001 环境管理体系认证，可满足国内外主流环保认证要求。
+          </p>
+        </div>
+        <!-- 问题2 -->
+        <div class="border-b border-stone-300 pb-6">
+          <h3 class="text-lg font-semibold">支持定制尺寸和特殊厚度吗？</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-600">
+            支持。我们可根据项目需求定制特殊尺寸、厚度及饰面，欢迎提交需求描述，我们的团队将尽快与您确认参数与报价。
+          </p>
+        </div>
+        <!-- 问题3 -->
+        <div class="border-b border-stone-300 pb-6">
+          <h3 class="text-lg font-semibold">大宗订单的交付周期通常是多久？</h3>
+          <p class="mt-3 text-sm leading-7 text-stone-600">
+            常规规格板材库存充足，7-15 天内即可发货；定制类大宗订单通常为 25-35 天，具体以合同约定为准。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我们 -->
   <section id="contact" class="scroll-mt-24 bg-[#e9e8df] py-20 sm:py-24">
     <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
       <div>
         <p class="text-xs font-semibold tracking-[0.22em] text-[#71856b] uppercase">
-          Start an Inquiry
+          联系我们
         </p>
         <h2 class="mt-4 text-4xl leading-tight font-semibold tracking-tight sm:text-5xl">
-          Let's discuss your next order.
+          开启您的项目咨询
         </h2>
         <p class="mt-5 max-w-md text-sm leading-7 text-stone-600">
-          Share your target product, specifications, estimated quantity and
-          destination market. We can then discuss the next steps.
+          无论是项目咨询、样品获取还是大宗贸易，我们的专家团队将为您提供专业的板材解决方案建议。
         </p>
-        <p class="mt-8 text-sm text-stone-500">
-          Email: Add your business email here
-        </p>
-        <p class="mt-2 text-sm text-stone-500">
-          Location: Add your factory location here
-        </p>
+        <div class="mt-8 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-[#203b2c] flex items-center justify-center text-white text-sm">📞</div>
+            <div>
+              <p class="text-xs text-stone-500">工厂电话</p>
+              <p class="text-sm font-medium">0539-8818888</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-[#203b2c] flex items-center justify-center text-white text-sm">✉️</div>
+            <div>
+              <p class="text-xs text-stone-500">工厂邮箱</p>
+              <p class="text-sm font-medium">linhaiwood@vip.163.com</p>
+            </div>
+          </div>
+        </div>
       </div>
       <form
-        action="mailto:your-business-email@example.com"
+        action="mailto:linhaiwood@vip.163.com"
         method="post"
-        enctype="text/plain"
+        encType="text/plain"
         class="rounded-2xl bg-white p-6 sm:p-9"
       >
         <div class="grid gap-5 sm:grid-cols-2">
           <label class="text-sm font-medium">
-            Your Name
+            您的姓名
             <input
               name="name"
               required
-              placeholder="Full name"
+              placeholder="请输入您的姓名"
               class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
             />
           </label>
           <label class="text-sm font-medium">
-            Company
+            公司名称
             <input
               name="company"
-              placeholder="Company name"
+              placeholder="请输入公司名称"
               class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
             />
           </label>
           <label class="text-sm font-medium sm:col-span-2">
-            Business Email
+            联系邮箱
             <input
               name="email"
               type="email"
               required
-              placeholder="you@company.com"
+              placeholder="your@company.com"
               class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
             />
           </label>
           <label class="text-sm font-medium sm:col-span-2">
-            Product Requirements
+            需求描述
             <textarea
               name="requirements"
               required
               rows="4"
-              placeholder="Product type, thickness, dimensions, quantity and destination country..."
+              placeholder="请描述您需要的产品类型、厚度、尺寸、数量和用途等..."
               class="mt-2 w-full rounded-lg border border-stone-200 px-4 py-3 font-normal outline-none focus:border-[#71856b]"
             ></textarea>
           </label>
@@ -333,11 +531,10 @@
           type="submit"
           class="mt-6 w-full rounded-full bg-[#203b2c] px-6 py-4 text-sm font-medium text-white transition hover:bg-[#365640]"
         >
-          Submit Inquiry ↗
+          提交咨询 ↗
         </button>
         <p class="mt-3 text-xs leading-5 text-stone-400">
-          Demo form only. Connect a real inquiry service before publishing
-          this website.
+          提交后将自动打开您的邮件客户端，发送后我们会尽快与您联系。
         </p>
       </form>
     </div>
@@ -347,12 +544,12 @@
   <footer class="bg-[#18271e] px-5 py-8 text-white/70">
     <div class="mx-auto flex max-w-7xl flex-col gap-3 text-xs sm:flex-row sm:items-center sm:justify-between">
       <p class="font-semibold tracking-widest text-white">
-        PLYWOOD EXPORT
+        林海木业 LINHAI WOOD
       </p>
       <p>
-        Product details and business information will be confirmed before publication.
+        专注可持续板材制造 · 始于1998
       </p>
-      <p>© 2026 All rights reserved.</p>
+      <p>© 2026 林海木业 版权所有</p>
     </div>
   </footer>
 </main>
